@@ -62,6 +62,13 @@ cd CreditCard && g++ *.cpp -o creditcard && ./creditcard
 ```
  
 ---
+### LexiStore
+A high-performance, memory-managed Key-Value database engine built from scratch in C++. 
+
+```bash
+cd LexiStore && g++ *.cpp -o LexiStore && ./Lexistore
+```
+
  
 ⚙️ Each project is self-contained. Navigate to the project directory and compile using a C++ compiler (e.g., g++).
  
