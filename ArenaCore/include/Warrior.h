@@ -7,6 +7,7 @@
             int* m_skillLevels{};
             int m_skillCount{};
         public:
+            Warrior();
             Warrior(const char* name,int health, int level, int* skills, int count);
             Warrior(const Warrior& src);
             Warrior& operator=(const Warrior& src);
@@ -14,9 +15,9 @@
             Warrior operator++(int);
             Warrior& operator+=(int skill);
             int attack() override;
-            bool isAlive() const;
+            bool isAlive() override;
             int calculateDamage() override;
-            void display(std::ostream& os) const override;
+            void display(std::ostream& os = std::cout) const override;
         };
     }
 
