@@ -44,6 +44,15 @@ cd Sorting && g++ Sorter.cpp main.cpp -o sorting && ./sorting
 ```
  
 ---
+
+### Restaurant Ordering System
+ A fully functional robustness ordering system 
+ 
+```bash
+cd RestaurantOrderingSystem/ && g++ *.cpp -o RestaurantOrderingSystem && ./RestaurantOrderingSystem
+```
+
+---
  
 ### MarketPlus
 A dynamic inventory and shopping engine simulating e-commerce logic with dynamic arrays.
